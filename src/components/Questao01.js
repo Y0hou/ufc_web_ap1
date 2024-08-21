@@ -16,7 +16,7 @@ function Questao01B({ lista }) {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
 // Componente Questao01A (função arrow)
