@@ -1,11 +1,13 @@
 Context API para Resolver Props Drilling
-Problema de Props Drilling: Props drilling ocorre quando você precisa passar dados de um componente de nível superior para um componente de nível inferior através de vários níveis intermediários de 
-componentes que não precisam desses dados. Isso pode tornar o código difícil de manter e entender.
+Problema de Props Drilling: Props drilling ocorre quando você precisa passar dados de um componente de nível superior para um 
+componente de nível inferior através de vários níveis intermediários de componentes que não precisam desses dados. Isso pode 
+tornar o código difícil de manter e entender.
 
-Solução com Context API: A Context API do React permite que você compartilhe valores entre componentes sem precisar passar explicitamente props através de cada nível da árvore de componentes.
+Solução com Context API: A Context API do React permite que você compartilhe valores entre componentes sem precisar passar 
+explicitamente props através de cada nível da árvore de componentes.
 
 Exemplo:
-Vamos criar um exemplo muito simples onde compartilhamos um valor de idioma (inglês ou espanhol) entre componentes usando a Context API.
+Exemplo onde compartilhamos um valor de idioma (inglês ou espanhol) entre componentes usando a Context API.
 ----
 import React, { createContext, useContext } from 'react';
 
